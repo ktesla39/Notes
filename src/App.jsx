@@ -2,17 +2,11 @@ import { useState, useEffect, useMemo } from "react";
 import Editor from "./Editor";
 import Loading from "./Loading";
 import {
-  Pin,
-  Plus,
-  PinOff,
-  Trash2,
-  Search,
-  Copy,
-  Moon,
-  Sun,
-  FileText,
-  X,
-  Eye,
+  Pin, Plus, PinOff,
+  Trash2, Search, Copy,
+  Moon, Sun, FileText,
+  X, Eye, Github,
+  GithubIcon
 } from "lucide-react";
 
 const COLORS = [
@@ -281,10 +275,23 @@ const App = () => {
             >
               {darkMode ? <Sun size={20} /> : <Moon size={20} />}
             </button>
+
+
+            <button
+              onClick={() => window.open("https://github.com/ktesla39/Notes/", "_blank")}
+              className={`p-2 rounded-lg transition-all hover:scale-110 active:scale-95 ${darkMode ? "bg-gray-700 text-gray-300" : "bg-gray-200 text-gray-600"}`}
+              title="View on GitHub"
+            >
+              <Github size={20} />
+            </button>
+
+
+
             <button
               onClick={openNew}
               className="bg-blue-600 hover:bg-blue-700 active:scale-95 text-white px-6 py-2 rounded-lg flex items-center gap-2 transition-all shadow-lg hover:shadow-xl font-semibold"
             >
+              
               <Plus size={20} /> Create
             </button>
           </div>
