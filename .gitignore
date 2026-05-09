@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# production
+dist/
+build/
+
+# logs
+*.log
+
+#developmet
+package-lock.json
+
+# editor files
+.vscode/
+.idea/

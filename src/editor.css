@@ -1,0 +1,130 @@
+/* ===== QUILL DARK THEME ===== */
+
+/* Main editor wrapper */
+.ql-container {
+  min-height: 350px;
+  font-size: 16px;
+}
+
+/* Toolbar */
+.ql-toolbar {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Editor body */
+.ql-container {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* ================= DARK MODE ================= */
+
+.dark .ql-toolbar {
+  background: #374151;
+  border-color: #4b5563;
+}
+
+.dark .ql-container {
+  background: #1f2937;
+  border-color: #4b5563;
+}
+
+.dark .ql-editor {
+  color: #f9fafb;
+}
+
+.dark .ql-editor.ql-blank::before {
+  color: #9ca3af;
+  font-style: italic;
+}
+
+/* Toolbar buttons */
+.dark .ql-toolbar button {
+  color: #f9fafb;
+}
+
+/* SVG icons */
+.dark .ql-toolbar button svg {
+  fill: none;
+}
+
+.dark .ql-toolbar .ql-stroke {
+  stroke: #f9fafb;
+}
+
+.dark .ql-toolbar .ql-fill {
+  fill: #f9fafb;
+}
+
+/* Hover and active states */
+.dark .ql-toolbar button:hover .ql-stroke,
+.dark .ql-toolbar button.ql-active .ql-stroke {
+  stroke: #60a5fa;
+}
+
+.dark .ql-toolbar button:hover .ql-fill,
+.dark .ql-toolbar button.ql-active .ql-fill {
+  fill: #60a5fa;
+}
+
+.dark .ql-toolbar button:hover,
+.dark .ql-toolbar button.ql-active {
+  color: #60a5fa;
+}
+
+/* Dropdown labels */
+.dark .ql-picker {
+  color: #f9fafb;
+}
+
+.dark .ql-picker-label {
+  color: #f9fafb;
+}
+
+.dark .ql-picker-options {
+  background: #374151;
+  border-color: #4b5563;
+  color: white;
+}
+
+/* Dropdown hover */
+.dark .ql-picker-item:hover {
+  color: #60a5fa;
+}
+
+/* Tooltip */
+.dark .ql-tooltip {
+  background: #374151;
+  border-color: #4b5563;
+  color: white;
+}
+
+/* Inputs inside tooltip */
+.dark .ql-tooltip input {
+  background: #1f2937;
+  color: white;
+  border: 1px solid #4b5563;
+}
+
+/* Code block */
+.dark .ql-editor pre {
+  background: #111827;
+  color: #f9fafb;
+}
+
+/* Blockquote */
+.dark .ql-editor blockquote {
+  border-left: 4px solid #60a5fa;
+  color: #d1d5db;
+}
+
+/* Scrollbar */
+.dark .ql-editor::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dark .ql-editor::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 999px;
+}
