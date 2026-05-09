@@ -5,8 +5,7 @@ import {
   Pin, Plus, PinOff,
   Trash2, Search, Copy,
   Moon, Sun, FileText,
-  X, Eye, Github,
-  GithubIcon
+  X, Eye, Github
 } from "lucide-react";
 
 const COLORS = [
