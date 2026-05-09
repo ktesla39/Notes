@@ -2,7 +2,7 @@
 
 A modern, feature-rich notes application built with React, featuring rich text editing, image support, dark mode, and smooth animations. Perfect for organizing your thoughts, ideas, and tasks with a beautiful, responsive interface.
 
-![Notes App Preview](https://ktesla.alwaysdata.net/notes)
+![Notes App Preview]([https://ktesla.alwaysdata.net/notes](http://ktesla.alwaysdata.net/notes/icons/scc.png))
 
 ## ✨ Features
 
