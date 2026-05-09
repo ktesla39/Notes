@@ -279,7 +279,7 @@ const App = () => {
 
             <button
               onClick={() => window.open("https://github.com/ktesla39/Notes/", "_blank")}
-              className={`p-2 rounded-lg transition-all hover:scale-110 active:scale-95 ${darkMode ? "bg-gray-700 text-gray-300" : "bg-gray-200 text-gray-600"}`}
+              className={`p-2 rounded-lg transition-all hover:scale-110 active:scale-95 cursor-pointer ${darkMode ? "bg-gray-700 text-gray-300" : "bg-gray-200 text-gray-600"}`}
               title="View on GitHub"
             >
               <Github size={20} />
